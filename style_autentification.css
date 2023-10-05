@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px 4px #97c346;
+    background-color: #e5ebd9;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #426306;
+    background-color: #97c346;
+}
+#container-autentification{
+  width: 80%;
+  margin: 15px;
+}
+h1 {
+    margin: 0;
+    font-size: 24px;
+    color: 504b4b;
+}
+h3 {
+    font-size: 18px;
+    color: #504b4b;
+    margin-bottom:0px ;
+    padding-bottom:0px ;
+    margin-left:15px ;
+    text-align: left;
+}
+form {
+    text-align: left;
+}
+#container-autentification label {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    color: #504b4b;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #504b4b;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    background: #e5ebd9;
+    border-radius: 5px;
+}
+input[type="radio"] {
+    margin-top: 5px;
+}
+input[type="radio"] + label {
+    margin-left: 5px;
+}
+input[type="radio"] {
+    display: none;
+}
+.radio-container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left:15px ;
+    text-align: left;
+}
+.radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    background-color: #96b559; 
+    border: 1px solid #777474 ; 
+    border-radius: 50%;
+}
+.radio-container:hover input ~ .checkmark {
+    background-color: #426306;
+}
+.radio-container input:checked ~ .checkmark {
+    background-color: #426306; 
+    border: 1px solid #2980b9; 
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.radio-container input:checked ~ .checkmark:after {
+    display: block;
+}
+.radio-container .checkmark:after {
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #e5ebd9;
+}
+.button-container {
+    margin-top: 20px;
+    margin-left:15px ;
+    text-align: left;
+}
+.pokemon_choose{
+    width: 30px;
+    height: 30px;
+}
+input[type="submit"],
+input[type="reset"] {
+    background-color: #96b559;
+    color: white bold;
+    padding: 10px ;
+    border: 2px #777474 solid;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #426306;
+    color: #e5ebd9;
+}

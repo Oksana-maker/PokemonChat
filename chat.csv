@@ -1,0 +1,9 @@
+Monday 02.10.2023; Just like other databases there’s full intrinsic support for it in the Spring Boot ecosystem.
+Monday 02.10.2023;By default Spring Boot configures the application to connect to an in-memory store with the username sa and an empty password.
+Monday 02.10.2023;Here the script populates the countries table in our schema with some sample data.
+Monday 02.10.2023;If we’re using YAML configuration, we need to add the property to application.yaml:
+Monday 02.10.2023;Once we connect we’ll see a comprehensive webpage that lists all the tables on the left side of the page and a textbox for running SQL queries:
+Wednesday 04.10.2023;Hello Bruno
+Wednesday 04.10.2023;Wie geht es Ihnen
+Wednesday 04.10.2023;Szdxtfcygvhbjknlml;l,./
+Thursday 05.10.2023;I am Jam

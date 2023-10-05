@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="style_autentification.css">
+<title>My Form</title>
+</head>
+<body>
+    <form action="log.php" method="post">
+        <div class="container">
+        <h1>My Form</h1>
+        <div id="container-autentification">
+            <label for="name">Login:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+            <h3>Choose a Pokemon:</h3>
+
+    <label class="radio-container"> <img class = "pokemon_choose" src = "pic/chansey.png" alt="Логотип Покемон">
+        <input type="radio" id="chansey" value="Chansey" name="option" />
+        <span class="checkmark"></span> Chansey
+    </label>
+
+    <label class="radio-container">  <img class = "pokemon_choose" src = "pic/webart.png" alt="Логотип Покемон">
+        <input type="radio" id="webart" value="Webart" name="option" />
+        <span class="checkmark"></span> Webart
+    </label>
+            
+            <div class="button-container">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </div>
+</form>
+

@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url('background_image.jpg'); /* Замените на свой фоновый рисунок */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #97c346;
+    border-radius: 50%;
+    background-color: #e5ebd9;
+    border: 20px;
+  }
+  .splash-screen {
+    width: 690px;
+    text-align: center;
+    padding: 20px;
+    background-color: #97c346;
+    border-radius: 10px;
+  }
+  .splash-screen img {
+    width: 350px; 
+  }
+  .splash-screen h1 {
+    font-size: 2em;
+    margin-top: 20px;
+  }
+  .advertisement {
+    margin-top: 30px;
+    font-size: 1.2em;
+  }
+  .button-container {
+  margin-top: 20px;
+  margin-left:15px ;
+  text-align: left;
+}
+input[type="submit"],
+input[type="reset"] {
+  background-color: #96b559;
+  color: white bold;
+  padding: 10px ;
+  border: 2px #777474 solid;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #426306;
+  color: white;
+}
